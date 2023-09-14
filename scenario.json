@@ -1,0 +1,10 @@
+{
+    "vehicle1": {
+      "behavior": "drive_until_intersection",
+      "vehicle": "vehicle1"
+    },
+    "vehicle2": {
+      "behavior": "drive_and_turn_at_next_intersection",
+      "vehicle": "vehicle2"
+    }
+}

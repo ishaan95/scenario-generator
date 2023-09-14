@@ -1,0 +1,43 @@
+esmini GIT REV: be63f83
+esmini GIT TAG: v2.31.8
+esmini GIT BRANCH: tags/v2.31.8
+esmini BUILD VERSION: 3325
+Generated seed 127560773
+Loading my_scenarios/xosc/./scenario0.xosc (v1.2)
+0 variables
+Type of roads are missing, cannot determine for OSI intersection or not, assuming that it is an intersection.
+Loaded OpenDRIVE: my_scenarios/xosc/./..\xodr\scenario0.xodr
+Info: "overwrite" priority deprecated in v1.2. Use "override" instead. Accepting it anyway.
+Route::AddWaypoint Added waypoint 0: 0, 1, 30.00
+Route::AddWaypoint Added waypoint 1: 1, -1, 10.00
+Route::AddWaypoint Skip waypoint for scenario routes since path not found
+Warning: Route ego_route is not valid, will be ignored for the default controller.
+0 parameters
+0.000: No scenegraph 3D model loaded. Generating a simplistic one...
+0.000: Adjusted Ego bounding box to model car_red.osgb - xyz: 1.46, 0.00, 0.77 lwh: 5.04, 2.04, 1.49
+0.000: Starting teleport Action
+0.000: Ego New position:
+0.000: Pos(118.50, 30.00, 0.00) Rot(4.71, 0.00, 0.00) roadId 2 laneId 1 offset 0.00 t 1.50
+0.000: Init Ego TeleportAction standbyState -> startTransition -> runningState
+0.000: Init Ego LongitudinalAction standbyState -> startTransition -> runningState
+0.000: Init Ego TeleportAction runningState -> endTransition -> completeState
+0.000: Init Ego LongitudinalAction runningState -> endTransition -> completeState
+0.001: Trigger /------------------------------------------------
+0.001: act_start == true, 0.0010 > 0.00 edge: rising
+0.001: Trigger  ------------------------------------------------/
+0.001: ego_man standbyState -> startTransition -> runningState
+0.001: maneuvuergroup_ego_man standbyState -> startTransition -> runningState
+0.001: act_maneuvuergroup_ego_man standbyState -> startTransition -> runningState
+1.002: Trigger /------------------------------------------------
+1.002: target_start == true, 1.0020 > 1.00 edge: none
+1.002: Trigger  ------------------------------------------------/
+1.002: ego_event complete after 1 execution
+1.019: ego_route standbyState -> endTransition -> completeState
+1.019: ego_event standbyState -> endTransition -> completeState
+1.019: maneuvuergroup_ego_man complete after 1 execution
+1.035: ego_man runningState -> endTransition -> completeState
+1.035: maneuvuergroup_ego_man runningState -> endTransition -> completeState
+10.011: Trigger /------------------------------------------------
+10.011: stop_simulation == true, 10.0110 > 10.00 edge: rising
+10.011: Trigger  ------------------------------------------------/
+Closing
